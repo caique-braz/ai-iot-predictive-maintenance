@@ -18,6 +18,14 @@ Information security was also considered throughout the implementation, includin
 
 ---
 
+## 📚 Documentation
+
+- [Setup Guide](docs/SETUP.md) — environment installation, ERPNext configuration, custom DocTypes and test execution.
+- [Security Documentation](SECURITY.md) — access control, input validation, audit logging, credential handling and network restrictions.
+- [Full Academic Project](docs/tcc.pdf) — complete undergraduate thesis in Portuguese.
+
+---
+
 ## 🏗️ Architecture
 
 ```text
@@ -284,10 +292,12 @@ The tests demonstrate the feasibility of combining sensor information, rule-base
 ```text
 .
 ├── README.md
+├── SECURITY.md
 ├── LICENSE
 ├── .gitignore
 │
 ├── docs/
+│   ├── SETUP.md
 │   └── tcc.pdf
 │
 ├── scripts/
