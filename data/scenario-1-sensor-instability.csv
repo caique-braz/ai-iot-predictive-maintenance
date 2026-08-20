@@ -1,0 +1,7 @@
+ID do Sensor,Tipo do Sensor,Valor da Leitura,Unidade,Data/Hora da Leitura,Status
+TEMP-04A,Temperatura,74.9,°C,2025-04-09 20:43:10,Ativo
+TEMP-04B,Temperatura,75.1,°C,2025-04-09 20:43:10,Ativo
+PRES-04A,Pressão,89.8,Pa,2025-04-09 20:43:10,Ativo
+PRES-04B,Pressão,90.2,Pa,2025-04-09 20:43:10,Ativo
+VIB-04A,Vibração,11.9,mm/s,2025-04-09 20:43:10,Ativo
+VIB-04B,Vibração,12.1,mm/s,2025-04-09 20:43:10,Ativo

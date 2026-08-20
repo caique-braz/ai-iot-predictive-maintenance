@@ -1,0 +1,4 @@
+ID do Sensor,Tipo do Sensor,Valor da Leitura,Unidade,Data/Hora da Leitura,Status
+TEMP-06,Temperatura,90.5,°C,2025-04-09 20:43:10,Ativo
+PRES-06,Pressão,104.0,Pa,2025-04-09 20:43:10,Ativo
+VIB-06,Vibração,18.0,mm/s,2025-04-09 20:43:10,Ativo
