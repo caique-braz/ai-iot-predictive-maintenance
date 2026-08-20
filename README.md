@@ -28,36 +28,11 @@ Information security was also considered throughout the implementation, includin
 
 ## 🏗️ Architecture
 
-```text
-Simulated IoT Sensor Data
-          │
-          ▼
-     ERPNext / Frappe
-          │
-          ▼
-      SensorLeitura
-          │
-          ▼
- Python Expert System
-          │
-          ▼
-    Rule Evaluation
-          │
-    ┌─────┼─────┐
-    ▼     ▼     ▼
-   OK   ALERT  MAINTENANCE
-    │     │     │
-    └─────┼─────┘
-          ▼
- ManutencaoPreditiva
-          │
-          ├── Predictive maintenance records
-          │
-          └── Audit logs
-               │
-               ▼
-        LogExecucaoIA
-```
+<p align="center">
+  <img src="images/architecture/system-architecture.png" alt="AI and IoT Predictive Maintenance Architecture" width="100%">
+</p>
+
+The architecture illustrates the complete project workflow: simulated or IoT sensor data is stored in ERPNext/Frappe, processed by a Python-based rule expert system, classified into operational states, and recorded for predictive maintenance and audit purposes.
 
 ---
 
@@ -310,6 +285,9 @@ The tests demonstrate the feasibility of combining sensor information, rule-base
 │   └── scenario-3-multiple-failures.csv
 │
 └── images/
+    ├── architecture/
+    │   └── system-architecture.png
+    │
     ├── erpnext/
     │   ├── sensor-reading-doctype.png
     │   ├── sensor-types.png
