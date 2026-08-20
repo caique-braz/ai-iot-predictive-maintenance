@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Secrets / local configuration
+.env
+.env.*
+!.env.example
+
+# Logs and runtime files
+*.log
+logs/
+
+# Frappe / ERPNext generated data
+sites/
+config/
+
+# IDEs
+.vscode/
+.idea/
+
+# Operating systems
+.DS_Store
+Thumbs.db
